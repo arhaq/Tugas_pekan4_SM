@@ -1,0 +1,148 @@
+body {
+    max-width: 1000px;
+    border: 1px solid black;
+    margin: auto; 
+    background-color: #E6E6E6
+}
+
+header {
+    background-color: #5C7AEA; 
+    border-bottom: 1px solid black;
+}
+
+nav {
+    display: flex; 
+    padding: 10px; 
+    border-bottom: 1px solid black;
+}
+  
+.firstul ul {
+    display: flex; 
+    list-style-type: none; gap: 10px; 
+    margin-right: 20px ;
+}  
+
+.firstul ul a {
+    justify-content: center; 
+    background-color: turquoise; 
+    margin-right: 20px; 
+    font-size:medium
+}
+
+.secondul ul {
+    display: flex; 
+    list-style-type: none; 
+    gap: 10px;
+}
+
+.secondul ul a {
+    text-decoration: none;
+}
+
+.thirdul {
+    display: flex; 
+    list-style-type: none; 
+    gap: 10px; 
+    margin-left: auto;
+}
+
+.ulli {
+    display: flex; 
+    gap: 5px;
+}
+
+.tablea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: large;
+}
+
+hr {
+    size: 1;
+    align-items: left;
+    color:white;
+    width: 550;
+}
+
+.td {
+    width: 250PX;
+    background-color: #5C7AEA; 
+    padding: 20px; 
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.summary3 {
+    font-size: 3;
+}
+
+.fontsmall {
+    font-size: small;
+}
+
+.hr {
+    align-content:left;
+    color:white ;
+    width: 215
+}
+
+.tableb {
+    width: 40%;
+}
+
+.italic {
+    color: blue;
+    font-size: smaller;
+}
+
+footer {
+    background-color: #5C7AEA; 
+    margin-top: 50px; 
+    border-top: 1px solid black; 
+    padding: 10px; 
+    display: grid; 
+    gap: 10px;
+}
+
+.divfooter {
+    display: flex; 
+    gap: 5px;
+}
+
+.aa {
+    justify-content: center; 
+    background-color: turquoise; 
+    margin-right: 20px; 
+    font-size:medium
+}
+
+.ab {
+    text-decoration: none; 
+    margin-right: 5px;
+}
+
+.ac {
+    text-decoration: none; 
+    margin-left: auto;
+}
+
+.divfooter2 {
+    gap: 5px;
+}
+
+.divfooter2 div {
+    display: flex;
+}
+
+.divfooter2 div input {
+    margin-left: auto; 
+    font-weight: bolder;
+}
+
+.divfooter2 div button {
+    background-color: green;
+    font-weight: bolder;
+}
